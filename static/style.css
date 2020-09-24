@@ -1,9 +1,23 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;500;700&display=swap');
+
+h1, h2 {
+    color: aliceblue;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
 .main {
     width: 900px;
     justify-content: space-evenly;
     margin-left: 400px;
     align-items: center;
+}
+
+.info {
+    position: fixed;
+    top: 95px;
+    left: 15px;
+    width: 350px;
 }
 
 hr {
@@ -17,8 +31,9 @@ hr {
 }
 
 body {
-    background-color: #edf2f9;
+    background-color: #F8F8FF;
     overflow-x: hidden;
+    font-family: 'Noto Sans TC', sans-serif;
 }
 
 .animation:hover {
@@ -32,10 +47,11 @@ body {
     min-height: 200px;
 }
 
-h1, h2, h4 {
+h4 {
     color: #344050;
     margin-top: 15px;
 }
+
 
 h1 {
     font-size: 70px;
@@ -51,7 +67,7 @@ h4 {
 }
 
 svg {
-    fill: #007bff;
+    fill: #079992;
     margin: 10px;
 }
 
@@ -63,13 +79,6 @@ svg {
     width: 400px;
     height: 170px;
     margin: 30px;
-}
-
-.info {
-    position: fixed;
-    top: 0;
-    left: 15px;
-    width: 350px;
 }
 
 .card {
@@ -90,9 +99,18 @@ svg {
 .name {
     justify-content: flex-start;
     align-items: baseline;
+    background-color: #079992;
+    width: 100%;
+    padding-left: 20px;
 }
 
 .btn {
     position: absolute;
     bottom: 20px;
+    background-color: #079992;
+    border-color: #079992;
+}
+
+.progress-bar {
+    background-color: #079992;
 }
