@@ -1,0 +1,98 @@
+
+.main {
+    width: 900px;
+    justify-content: space-evenly;
+    margin-left: 400px;
+    align-items: center;
+}
+
+hr {
+    width: 900px;
+    margin-left: 400px;
+}
+
+.photo {
+    width: 350px;
+    height: auto;
+}
+
+body {
+    background-color: #edf2f9;
+    overflow-x: hidden;
+}
+
+.animation:hover {
+    transform: scale(1.05); 
+}
+
+.custom-container {
+    background-color: white;
+    border-radius: .25rem;
+    padding: 10px;
+    min-height: 200px;
+}
+
+h1, h2, h4 {
+    color: #344050;
+    margin-top: 15px;
+}
+
+h1 {
+    font-size: 70px;
+    margin-left: 20px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+svg {
+    fill: #007bff;
+    margin: 10px;
+}
+
+.list-group-item {
+    margin: 5px;
+}
+
+.sm-container {
+    width: 400px;
+    height: 170px;
+    margin: 30px;
+}
+
+.info {
+    position: fixed;
+    top: 0;
+    left: 15px;
+    width: 350px;
+}
+
+.card {
+    height: 430px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.card img {
+    width: auto;
+    height: 200px;
+}
+
+.tools {
+    width: 500px;
+}
+
+.name {
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.btn {
+    position: absolute;
+    bottom: 20px;
+}
