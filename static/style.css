@@ -31,7 +31,7 @@ hr {
 }
 
 body {
-    background-color: #F8F8FF;
+    background-color: #F5DF4D;
     overflow-x: hidden;
     font-family: 'Noto Sans TC', sans-serif;
 }
@@ -67,7 +67,7 @@ h4 {
 }
 
 svg {
-    fill: #079992;
+    fill: #F5DF4D;
     margin: 10px;
 }
 
@@ -107,10 +107,10 @@ svg {
 .btn {
     position: absolute;
     bottom: 20px;
-    background-color: #079992;
-    border-color: #079992;
+    background-color: #F5DF4D;
+    border-color: #F5DF4D;
 }
 
 .progress-bar {
-    background-color: #079992;
+    background-color: #F5DF4D;
 }
